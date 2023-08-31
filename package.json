@@ -1,0 +1,14 @@
+{
+  "name": "full-stack-python-react",
+  "version": "1.0.0",
+  "description": "A full stack starter kit to boot up a react client with a python backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd ./server && uvicorn main:app --reload\" \"cd ./client && yarn dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
